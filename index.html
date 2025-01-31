@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <div id="question-container">
+            <p id="question"></p>
+        </div>
+        <div id="answer-buttons">
+            <!-- Answer buttons will be generated here -->
+        </div>
+        <div id="result-message"></div>
+        <div id="status-bar">Questions completed: <span id="completed-count">0</span></div>
+        <button id="next-btn" onclick="nextQuestion()" disabled>Next Question</button>
+    </div>        
+    <script src="script.js"></script>
+</body>
+</html>
